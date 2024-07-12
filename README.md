@@ -24,7 +24,9 @@ We utilized YOLOv8 (You Only Look Once version 8) for this project, a state-of-t
 - **Architecture:** Comprises 24 convolutional layers, four max-pooling layers, and two fully connected layers. Utilizes techniques like batch normalization and dropout for regularization.
 - **Training:** The model was trained using the Chula-ParasiteEgg-11 dataset, employing a pre-trained YOLOv8 model initialized with weights optimized on a diverse range of object recognition tasks.
 
-<img src="/images/architecture_yolo_v8.jpg" alt="YOLOv8 Architecture" width="500" />
+<div align="center">
+    <img src="/images/architecture_yolo_v8.jpg" alt="YOLOv8 Architecture" width="500" />
+</div>
 
 ### Model Performance
 - **Speed:** YOLOv8 processes images at 45 Frames Per Second (FPS).
@@ -37,6 +39,15 @@ We utilized YOLOv8 (You Only Look Once version 8) for this project, a state-of-t
 - **Metrics:** Precision, recall, and F1 confidence curves used to evaluate performance.
 - **Confusion Matrix:** Most classifications were correct, indicating good model performance.
 
+<div align="center">
+    <img src="/images/loss_curves.jpg" alt="Loss Curves" width="500" />
+</div>
+
 ## Results
 
 The YOLOv8 model showed excellent performance in detecting and classifying parasitic eggs in microscopic images. Validation results indicate high accuracy and reliable predictions, making it a suitable tool for real-time diagnostic applications in healthcare, especially in regions with limited resources.
+
+<div align="center">
+    <img src="/images/results.jpg" alt="Results" width="500" />
+</div>
+
