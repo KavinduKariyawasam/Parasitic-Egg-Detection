@@ -1,6 +1,6 @@
 # Parasitic Egg Detection and Classification in Microscopic Images
 
-**Authors:** Kariyawasam KKD (200289U), Nimnaka KWH (200426N)  
+**Authors:** Kariyawasam KKD , Nimnaka KWH  
 **Department of Electronic and Telecommunications, University of Moratuwa**  
 **Project Repository:** [GitHub](https://github.com/KavinduKariyawasam/Parasitic-Egg-Detection)
 
