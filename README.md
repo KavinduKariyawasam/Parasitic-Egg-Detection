@@ -24,6 +24,8 @@ We utilized YOLOv8 (You Only Look Once version 8) for this project, a state-of-t
 - **Architecture:** Comprises 24 convolutional layers, four max-pooling layers, and two fully connected layers. Utilizes techniques like batch normalization and dropout for regularization.
 - **Training:** The model was trained using the Chula-ParasiteEgg-11 dataset, employing a pre-trained YOLOv8 model initialized with weights optimized on a diverse range of object recognition tasks.
 
+![YOLOv8 Architecture](/images/architecture_yolo_v8.jpg)
+
 ### Model Performance
 - **Speed:** YOLOv8 processes images at 45 Frames Per Second (FPS).
 - **Accuracy:** Demonstrates high precision and minimal background errors.
